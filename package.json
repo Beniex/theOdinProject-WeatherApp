@@ -1,0 +1,30 @@
+{
+  "name": "theodinproject-todolist",
+  "version": "1.0.0",
+  "description": "this repo is a template of a working html css js project with a server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack",
+    "server": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "express": "^4.19.2",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-middleware": "^7.2.1",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "lodash": "^4.17.21"
+  }
+}
