@@ -16,7 +16,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'TheOdinProject-Template',
+      title: 'TheOdinProject-WeatherApp',
       template: './src/index.html',
       favicon: './src/favicon.ico',
     }),
